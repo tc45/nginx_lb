@@ -1,0 +1,13 @@
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Ignore environment variable files
+.env
+.env.*
+
+# Ignore backup configurations
+nginx_config_backup/ 

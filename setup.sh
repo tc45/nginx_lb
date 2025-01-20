@@ -27,4 +27,4 @@ pip install -r "$SCRIPT_DIR/requirements.txt"
 echo "Installing NGINX..."
 sudo apt install -y nginx
 
-echo "Setup completed successfully." 
+echo "Setup completed successfully."
