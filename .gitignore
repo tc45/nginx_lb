@@ -1,13 +1,12 @@
 # Ignore virtual environment directories
-venv/
-env/
-ENV/
-.venv/
-.ENV/
+venv/*
+.venv/*
 
 # Ignore environment variable files
 .env
-.env.*
 
-# Ignore backup configurations
-nginx_config_backup/ 
+# Ignore all files in the nginx_config_backup/ directory
+nginx_config_backup/*
+
+# Ignore all files in the nginx_config_backup/ directory
+nginx_config_backup/*
